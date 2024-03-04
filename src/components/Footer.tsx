@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
     return (
-        <div className=""  style={{ marginTop: '8rem', backgroundColor: '#14b8a6' }}>
+        <div className=""  style={{ marginTop: '8rem', backgroundColor: '#54afe8' }}>
             <div className="max-w-2xl mx-auto text-white py-10">
                 <div className="text-center">
                     <h3 className="text-3xl md:text-3xl lg:text-3xl font-bold mb-8 text-center">Download MiniQ</h3>
