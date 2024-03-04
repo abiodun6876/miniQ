@@ -12,11 +12,9 @@ const Header: React.FC = () => {
             <header className="absolute inset-x-0 top-0 z-50">
                 <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                     <div className="flex lg:flex-1">
+
                         <a href="#" className="-m-1.5 p-1.5">
-                            <h1 className="font-bold text-4xl">
-                                <span style={{ color: '#3b0764' }}>Mini</span>
-                                <span style={{ color: '#0B153C' }}>Q</span>
-                            </h1>
+                        <img src="/mini-logo.png" alt="MiniQ Logo" className="w-30 h-35" />
                         </a>
                     </div>
                     <div className="flex lg:hidden">
@@ -33,10 +31,10 @@ const Header: React.FC = () => {
                         <a href="#" className="text-sm font-bold leading-6 text-gray-900">COMMUNITY</a>
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="#" className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">Create Account <span aria-hidden="true">&rarr;</span></a>
+                        <a href=" /auth/signup" className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">Create Account <span aria-hidden="true">&rarr;</span></a>
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-                        <a href="/dashboard" className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">Log in <span aria-hidden="true">&rarr;</span></a>
+                        <a href="/auth/signin" className="flex items-center border w-auto rounded-lg px-4 py-2 w-44 mx-2">Log in <span aria-hidden="true">&rarr;</span></a>
                     </div>
                 </nav>
             </header>
@@ -59,8 +57,10 @@ const Header: React.FC = () => {
                                     <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-bold leading-7 text-gray-900 hover:bg-gray-50">Organization</a>
                                 </div>
                                 <div className="py-6">
-                                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-bold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                                    <a href=" /auth/signin" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-bold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
                                 </div>
+                               
+                       
                             </div>
                         </div>
                     </div>
